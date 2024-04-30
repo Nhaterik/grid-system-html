@@ -1,11 +1,10 @@
-
-* {
-    box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
+*{
     box-sizing: border-box;
-    line-height: 2rem;
+    padding: 0;
+    margin: 0;
 }
-
+.item{
+    background-color: orange;
+    line-height: 350px;
+    text-align: center;
+}

@@ -5,19 +5,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css  ">
   <link rel="stylesheet" href="./assets/fontawesome-free-6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/main.css">
   <title>Document</title>
+
 </head>
 <body>
-<div class="main">
- <h1 class="output"></h1>
- <button class="deposit">deposit $10</button>
- <button class="withdraw">withdraw $10</button>
-</div> 
+  <div class="grid wide ">
+    <div class="row">
+     <div class="col l-5">
+      <div class="item">item1</div>
+     </div>
+     <div class="col l-7">
+      <div class="item">item2</div>
 
-<script src="./assets/js/script.js" type="module"></script>
+      <div class="row">
+        <div class="col l-4">
+          <div style="color:red;background-color: blue;">something</div>
+        </div>
+        <div class="col l-4">
+          <div style="color:red;background-color: blue;">something</div>
+        </div>
+        <div class="col l-4">
+          <div style="color:red;background-color: blue;">something</div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
 </body>
 
 </html>
